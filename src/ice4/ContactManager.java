@@ -7,10 +7,7 @@ package ice4;
 /**
  *
  * @author Haroleon
- * 
  *
- */
-
 
 import java.util.Arrays;
 
@@ -23,7 +20,6 @@ public class ContactManager {
         count = 0;
     }
 
-   
     public void addNewContact(Contact contact) {
         if (count == contactList.length) {
             contactList = Arrays.copyOf(contactList, contactList.length * 2);
